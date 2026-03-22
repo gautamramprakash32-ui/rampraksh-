@@ -1,7 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ramprakash News</title>
+
+<style>
+body {margin:0; font-family:Arial; background:#f4f4f4;}
+header {background:#000; color:#fff; padding:15px; text-align:center; font-size:24px;}
+.breaking {background:red; color:white; padding:8px; overflow:hidden;}
+.breaking span {display:inline-block; padding-left:100%; animation:scroll 10s linear infinite;}
+@keyframes scroll {0%{transform:translateX(0);}100%{transform:translateX(-100%);}}
+.container {padding:20px;}
+.card {background:white; padding:15px; margin-bottom:15px; border-radius:10px;}
+.video {text-align:center;}
+</style>
+</head>
+
+<body>
+
+<header>Ramprakash News</header>
+
+<div class="breaking">
+<span>🔴 Breaking: Aaj ki badi khabar yaha likho...</span>
+</div>
+
+<div class="container">
+
+<div class="card">
+<h2>Latest News</h2>
+<p>Yaha apni news likho...</p>
+</div>
+
+<div class="card">
+<h2>Trending News</h2>
+<p>Yaha trending update likho...</p>
+</div>
+
+<div class="video">
+<h2>My Video</h2>
 <iframe width="300" height="500"
-src="https://www.youtube.com/embed/ZEfo0hps5UQ?rel=0"
-title="YouTube video"
-frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen>
+src="https://www.youtube.com/embed/ZEfo0hps5UQ"
+frameborder="0" allowfullscreen>
 </iframe>
+</div>
+
+</div>
+
+</body>
+</html>
